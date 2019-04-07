@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC19ADA225A33CE005FCBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC19AD9225A33CE005FCBFB /* AppDelegate.swift */; };
+		AFC19ADF225A33CE005FCBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC19ADD225A33CE005FCBFB /* Main.storyboard */; };
+		AFC19AE1225A33CF005FCBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC19AE0225A33CF005FCBFB /* Assets.xcassets */; };
+		AFC19AE4225A33CF005FCBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC19AE2225A33CF005FCBFB /* LaunchScreen.storyboard */; };
+		AFC19AED225A360F005FCBFB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC19AEC225A360E005FCBFB /* MainViewController.swift */; };
+		AFC19AF0225A475D005FCBFB /* liblibaudiostream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC19AEF225A475D005FCBFB /* liblibaudiostream.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFC19AD6225A33CE005FCBFB /* IcecastTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IcecastTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC19AD9225A33CE005FCBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFC19ADE225A33CE005FCBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFC19AE0225A33CF005FCBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC19AE3225A33CF005FCBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC19AE5225A33CF005FCBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC19AEB225A3430005FCBFB /* Icecast-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Icecast-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFC19AEC225A360E005FCBFB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AFC19AEF225A475D005FCBFB /* liblibaudiostream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibaudiostream.a; path = IcecastTest/liblibaudiostream/liblibaudiostream.a; sourceTree = "<group>"; };
+		AFC19AF3225A4773005FCBFB /* libaudiostream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libaudiostream.h; sourceTree = "<group>"; };
+		AFC19AF4225A4773005FCBFB /* libshout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libshout.h; sourceTree = "<group>"; };
+		AFC19AF5225A4773005FCBFB /* liblame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblame.h; sourceTree = "<group>"; };
+		AFC19AF6225A4773005FCBFB /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC19AD3225A33CE005FCBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC19AF0225A475D005FCBFB /* liblibaudiostream.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC19ACD225A33CE005FCBFB = {
+			isa = PBXGroup;
+			children = (
+				AFC19AD8225A33CE005FCBFB /* IcecastTest */,
+				AFC19AD7225A33CE005FCBFB /* Products */,
+				AFC19AEE225A475D005FCBFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC19AD7225A33CE005FCBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC19AD6225A33CE005FCBFB /* IcecastTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC19AD8225A33CE005FCBFB /* IcecastTest */ = {
+			isa = PBXGroup;
+			children = (
+				AFC19AF1225A4773005FCBFB /* include */,
+				AFC19AD9225A33CE005FCBFB /* AppDelegate.swift */,
+				AFC19AEC225A360E005FCBFB /* MainViewController.swift */,
+				AFC19ADD225A33CE005FCBFB /* Main.storyboard */,
+				AFC19AE0225A33CF005FCBFB /* Assets.xcassets */,
+				AFC19AE2225A33CF005FCBFB /* LaunchScreen.storyboard */,
+				AFC19AE5225A33CF005FCBFB /* Info.plist */,
+				AFC19AEB225A3430005FCBFB /* Icecast-Bridging-Header.h */,
+			);
+			path = IcecastTest;
+			sourceTree = "<group>";
+		};
+		AFC19AEE225A475D005FCBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFC19AEF225A475D005FCBFB /* liblibaudiostream.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFC19AF1225A4773005FCBFB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AFC19AF2225A4773005FCBFB /* libaudiostream */,
+			);
+			name = include;
+			path = liblibaudiostream/include;
+			sourceTree = "<group>";
+		};
+		AFC19AF2225A4773005FCBFB /* libaudiostream */ = {
+			isa = PBXGroup;
+			children = (
+				AFC19AF3225A4773005FCBFB /* libaudiostream.h */,
+				AFC19AF4225A4773005FCBFB /* libshout.h */,
+				AFC19AF5225A4773005FCBFB /* liblame.h */,
+				AFC19AF6225A4773005FCBFB /* lame.h */,
+			);
+			path = libaudiostream;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC19AD5225A33CE005FCBFB /* IcecastTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC19AE8225A33CF005FCBFB /* Build configuration list for PBXNativeTarget "IcecastTest" */;
+			buildPhases = (
+				AFC19AD2225A33CE005FCBFB /* Sources */,
+				AFC19AD3225A33CE005FCBFB /* Frameworks */,
+				AFC19AD4225A33CE005FCBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IcecastTest;
+			productName = IcecastTest;
+			productReference = AFC19AD6225A33CE005FCBFB /* IcecastTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC19ACE225A33CE005FCBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sunflower Software Inc.";
+				TargetAttributes = {
+					AFC19AD5225A33CE005FCBFB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = AFC19AD1225A33CE005FCBFB /* Build configuration list for PBXProject "IcecastTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC19ACD225A33CE005FCBFB;
+			productRefGroup = AFC19AD7225A33CE005FCBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC19AD5225A33CE005FCBFB /* IcecastTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC19AD4225A33CE005FCBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC19AE4225A33CF005FCBFB /* LaunchScreen.storyboard in Resources */,
+				AFC19AE1225A33CF005FCBFB /* Assets.xcassets in Resources */,
+				AFC19ADF225A33CE005FCBFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC19AD2225A33CE005FCBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC19ADA225A33CE005FCBFB /* AppDelegate.swift in Sources */,
+				AFC19AED225A360F005FCBFB /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFC19ADD225A33CE005FCBFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC19ADE225A33CE005FCBFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFC19AE2225A33CF005FCBFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC19AE3225A33CF005FCBFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC19AE6225A33CF005FCBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFC19AE7225A33CF005FCBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC19AE9225A33CF005FCBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UU2QHUKDAY;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = IcecastTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IcecastTest/liblibaudiostream",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franzwarning.IcecastTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IcecastTest/Icecast-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC19AEA225A33CF005FCBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UU2QHUKDAY;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = IcecastTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IcecastTest/liblibaudiostream",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.franzwarning.IcecastTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IcecastTest/Icecast-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC19AD1225A33CE005FCBFB /* Build configuration list for PBXProject "IcecastTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC19AE6225A33CF005FCBFB /* Debug */,
+				AFC19AE7225A33CF005FCBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC19AE8225A33CF005FCBFB /* Build configuration list for PBXNativeTarget "IcecastTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC19AE9225A33CF005FCBFB /* Debug */,
+				AFC19AEA225A33CF005FCBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC19ACE225A33CE005FCBFB /* Project object */;
+}
